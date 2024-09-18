@@ -1,0 +1,1 @@
+# Resonanz-Singularit-t-s-Dysfunktion-RSD-Quanten-Simulator
