@@ -25,20 +25,20 @@ Installation
 
 Klonen Sie das Repository und installieren Sie die Abhängigkeiten:
 
-git clone https://github.com/BeardyDE/RSD-Quantum-Simulator.git
-cd RSD-Quantum-Simulator
-pip install -r requirements.txt
+- git clone https://github.com/BeardyDE/RSD-Quantum-Simulator.git
+- cd RSD-Quantum-Simulator
+- pip install -r requirements.txt
 
 Anforderungen
 
-Numpy: Erforderlich für Tensorberechnungen.
+- Numpy: Erforderlich für Tensorberechnungen.
 
-Scipy: Für fortgeschrittene Integration und Differentialgleichungen.
+- Scipy: Für fortgeschrittene Integration und Differentialgleichungen.
 
-Cmath: Zum Umgang mit komplexen Zahlenberechnungen.
+- Cmath: Zum Umgang mit komplexen Zahlenberechnungen.
 
-
-pip install numpy scipy cmath
+ 
+- pip install numpy scipy cmath
 
 
 ---
@@ -47,7 +47,7 @@ Nutzung
 
 Um den RSD-Quanten-Simulator auszuführen:
 
-python rsd_simulation.py
+- python rsd_simulation.py
 
 Dieser Befehl startet die Simulation von Quantenresonanzfeldern, die mit biologischen Systemen interagieren, und bietet Einblicke in neuro-singularitätsphänomene.
 
@@ -60,13 +60,13 @@ Mitochondriale Quantenresonanz
 
 Dieses Modul simuliert Quantenoszillationen in Mitochondrien und deren Reaktion auf externe Quantenfelder:
 
-f(ψ) = sin(ψ / λ) + log(|ψ + δ|)
+- f(ψ) = sin(ψ / λ) + log(|ψ + δ|)
 
 Neuronale Quantenfluktuationen
 
 Simuliert Phasenverschiebungen und Fluktuationen in neuronalen Netzwerken:
 
-Φ(t, x) = exp(i * (t + x)) * randn()
+- Φ(t, x) = exp(i * (t + x)) * randn()
 
 Resonanz-Singularitäts-Instabilitätsdetektion
 
